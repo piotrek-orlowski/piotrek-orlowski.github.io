@@ -5,7 +5,7 @@ permalink: /working/2022-05-24-jens-bounds
 excerpt: 'We examine the pricing performance of out-of-sample pricing factors in the broad cross-section of currency returns. To this end, we develop a methodology for estimating empirical minimum-dispersion stochastic discount factors (SDFs) under constraints on maximum position leverage. Under leverage constraints compatible with those observed in the currency markets, our empirical SDFs deliver smaller out-of-sample pricing errors than existing factor models, and are priced in individual currency and hedge fund cross-sections. After transaction costs, an investable SDF portfolio delivers a Sharpe ratio of around 0.8 and positively skewed returns. These empirical SDFs offer tractable benchmarks for candidate currency pricing models.'
 date: 2022-05-24
 venue: 'The Journal of Finance'
-other_authors: 'Andrea Vedolin, Alireza Tahbaz-Salehi, Fabio Trojani'
+other_authors: 'Andrea Vedolin, Alireza Tahbaz-Salehi, and Fabio Trojani'
 ssrnurl: ''
 paperstatus:	 'under_review'
 citation: 'Orłowski, Piotr and Andrea Vedolin and Alireza Tahbaz-Salehi and Fabio Trojani (2022) Jensen Bounds: Testable Restrictions on Asset Pricing Models'
