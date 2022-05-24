@@ -40,10 +40,10 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' and post.paperurl and post.ssrnurl %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}" target="blank">journal link</a> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
         {% elsif post.collection == 'publications' and post.paperurl and post.ssrnurl and post.other_authors%}
           <p>With {{ post.other_authors }}. Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}" target="blank">journal link</a> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
+        {% elsif post.collection == 'publications' and post.paperurl and post.ssrnurl %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}" target="blank">journal link</a> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'workings' and post.ssrnurl %}
