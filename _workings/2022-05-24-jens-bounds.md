@@ -1,15 +1,15 @@
 ---
-title: "Benchmark Currency Stochastic Discount Factors"
+title: "Jensen Bounds: Testable Restrictions on Asset Pricing Models"
 collection: workings
-permalink: /working/2021-11-05-rof-bench-sdfs
+permalink: /working/2022-05-24-jens-bounds
 excerpt: 'We examine the pricing performance of out-of-sample pricing factors in the broad cross-section of currency returns. To this end, we develop a methodology for estimating empirical minimum-dispersion stochastic discount factors (SDFs) under constraints on maximum position leverage. Under leverage constraints compatible with those observed in the currency markets, our empirical SDFs deliver smaller out-of-sample pricing errors than existing factor models, and are priced in individual currency and hedge fund cross-sections. After transaction costs, an investable SDF portfolio delivers a Sharpe ratio of around 0.8 and positively skewed returns. These empirical SDFs offer tractable benchmarks for candidate currency pricing models.'
-date: 2021-11-05
-venue: 'Review of Finance'
-other_authors: 'Valeri Sokolovski, Erik Sverdrup'
-ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3945075'
+date: 2022-05-24
+venue: 'The Journal of Finance'
+other_authors: 'Andrea Vedolin, Alireza Tahbaz-Salehi, Fabio Trojani'
+# ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3945075'
 paperstatus:	 'under_review'
-citation: 'Orłowski, Piotr and Sokolovski, Valeri and Sverdrup, Erik, Benchmark Currency Stochastic Discount Factors (October 18, 2021). Available at SSRN: https://ssrn.com/abstract=3945075 or http://dx.doi.org/10.2139/ssrn.3945075'
+citation: 'Orłowski, Piotr and Andrea Vedolin and Alireza Tahbaz-Salehi and Fabio Trojani (2022) Jensen Bounds: Testable Restrictions on Asset Pricing Models'
 ---
 ## Abstract
 
-We examine the pricing performance of out-of-sample pricing factors in the broad cross-section of currency returns. To this end, we develop a methodology for estimating empirical minimum-dispersion stochastic discount factors (SDFs) under constraints on maximum position leverage. Under leverage constraints compatible with those observed in the currency markets, our empirical SDFs deliver smaller out-of-sample pricing errors than existing factor models, and are priced in individual currency and hedge fund cross-sections. After transaction costs, an investable SDF portfolio delivers a Sharpe ratio of around 0.8 and positively skewed returns. These empirical SDFs offer tractable benchmarks for candidate currency pricing models.
+This paper develops a systematic framework for testing asset-pricing models, with a particular focus on obtaining testable restrictions on the joint distribution of multiple SDFs. Our framework takes an arbitrary set of empirical and/or theoretical restrictions—such as observable returns and Euler equations—as a primitive and returns a family of necessary conditions on the joint distribution of SDFs that have to be satisfied if the model is to be consistent with the a priori specified restrictions. Applying our main results to international asset-pricing models, we show that observed asset prices imply non-trivial restrictions on the comovement of SDFs of different countries.
