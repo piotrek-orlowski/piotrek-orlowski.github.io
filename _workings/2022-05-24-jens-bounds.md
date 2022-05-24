@@ -6,7 +6,7 @@ excerpt: 'We examine the pricing performance of out-of-sample pricing factors in
 date: 2022-05-24
 venue: 'The Journal of Finance'
 other_authors: 'Andrea Vedolin, Alireza Tahbaz-Salehi, Fabio Trojani'
-# ssrnurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3945075'
+ssrnurl: ''
 paperstatus:	 'under_review'
 citation: 'Orłowski, Piotr and Andrea Vedolin and Alireza Tahbaz-Salehi and Fabio Trojani (2022) Jensen Bounds: Testable Restrictions on Asset Pricing Models'
 ---
