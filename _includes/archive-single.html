@@ -42,16 +42,16 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' and post.paperurl and post.ssrnurl and post.other_authors%}
           <p>With {{ post.other_authors }}. Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}" target="blank">journal link</a> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
-        {% elsif post.collection == 'publications' and post.paperurl and post.ssrnurl %}
+        {% elsif post.collection == 'publications' and post.ssrnurl %}
           {% if post.paperstatus == 'accepted' %}
-          <p>Accepted for publication in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
-          {% elsif post.paperstatus == 'forthcoming' %}
+          <p>Accepted for publication in <i>{{ post.venue }}</i> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
+          {% elsif post.paperstatus == 'forthcoming' and post.paperurl %}
           <p>Forthcoming in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}" target="blank">journal link</a> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
-          {% elsif post.paperstatus == 'published' %}
+          {% elsif post.paperstatus == 'published' and post.paperurl %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} | <a href="{{ post.paperurl }}" target="blank">journal link</a> | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a> </p>
           {% endif %}
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        <!-- {% elsif post.collection == 'publications' %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p> -->
         {% elsif post.collection == 'workings' and post.ssrnurl %}
           <p>Last updated on {{ post.date | default: "1900-01-01" | date: "%Y-%m-%d" }} | <a href="{{ post.ssrnurl }}" target="blank">ssrn link</a></p>
         {% elsif post.date %}
