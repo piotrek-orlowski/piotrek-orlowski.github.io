@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Click [here](./static/orlowski-cv.pdf) for PDF.
+Click [here](../static/orlowski-cv.pdf) for PDF.
 
 Current Appointment
 ======
@@ -18,8 +18,8 @@ Current Appointment
 
 Education
 ======
-* Ph.D. in Economics, University of Lugano (Swiss Finance Institute Ph.D. in Finance)
-* M.A. in Quantitative Methods and Information Systems in Economics, Warsaw School of Economics
+* 2017 Ph.D. in Economics, University of Lugano (Swiss Finance Institute Ph.D. in Finance)
+* 2008 M.A. in Quantitative Methods and Information Systems in Economics, Warsaw School of Economics
 
 Work experience
 ======
