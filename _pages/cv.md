@@ -13,7 +13,8 @@ Click [here](../static/orlowski-cv.pdf) for PDF.
 
 Current Appointment
 ======
-* Assistant Professor of Finance, HEC Montréal [since  August 2017]
+* Associate Professor of Finance, HEC Montréal [since June 2023]
+* Assistant Professor of Finance, HEC Montréal [August 2017 -- May 2023]
 * Associate Fellow, Canadian Derivatives Institute [since September 2022]
 
 Education
