@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Piotr Or\u0142owski"
   avatar           : "bio-photo-piotr-orlowski.jpg"
-  bio              : "Assistant Professor of Finance"
+  bio              : "Associate Professor of Finance"
   location         : # "Montr&eacuteal"
   # employer         : "HEC Montr&eacuteal"
   employer         : "<a href=\"https://www.hec.ca\" style=\"display:inline;\">HEC Montr&eacuteal</a>"
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          : "@professorpiotr"
   vine             :
   weibo            :
   xing             :
